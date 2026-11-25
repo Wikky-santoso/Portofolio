@@ -1,10 +1,10 @@
 export const site = {
   name: 'Wikky Santoso',
   role: 'Software Engineer / Full-Stack Developer',
-  email: 'wikky@example.com',
+  email: 'wikkysantoso@gmail.com',
   github: 'https://github.com/Wikky-santoso',
   githubLabel: 'github.com/Wikky-santoso',
-  linkedin: 'https://www.linkedin.com/in/wikky-santoso',
+  linkedin: 'https://www.linkedin.com/in/wikky-santoso-b2140424a/',
   linkedinLabel: 'linkedin.com/in/wikky-santoso',
   resume: 'resume.pdf',
   school: 'Institut Bisnis dan Teknologi Pelita Indonesia',

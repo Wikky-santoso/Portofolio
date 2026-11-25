@@ -30,10 +30,10 @@ export function TextReveal({
       className={className}
       initial="hidden"
       variants={staggerContainer(stagger, delay)}
-      aria-label={stripMarks(text)}
       {...trigger}
       {...rest}
     >
+      <span className="sr-only">{stripMarks(text)}</span>
       {words.map(({ word, style }, index) => (
         <span key={`${word}-${index}`} aria-hidden="true">
           <span className="-mb-[0.14em] inline-block overflow-hidden pb-[0.14em] align-bottom">

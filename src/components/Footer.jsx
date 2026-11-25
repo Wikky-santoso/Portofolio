@@ -15,7 +15,7 @@ export function Footer() {
         <button
           type="button"
           onClick={() => scrollToId('top')}
-          className="group flex min-h-11 items-center gap-3 transition-colors hover:text-accent"
+          className="group flex min-h-11 items-center gap-3 uppercase tracking-[0.18em] transition-colors hover:text-accent"
         >
           Back to top
           <ArrowUp

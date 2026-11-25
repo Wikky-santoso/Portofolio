@@ -43,12 +43,6 @@ function ProjectPanel({ project, horizontal, onOpen }) {
                 <ProjectVisual type={project.visual} />
               </div>
             </div>
-            <span
-              aria-hidden="true"
-              className="absolute top-4 left-4 bg-night px-3 py-1.5 font-display text-[11px] tracking-[0.2em] text-accent uppercase"
-            >
-              {project.number} / {String(projects.length).padStart(2, '0')}
-            </span>
           </button>
         </Tilt>
       </motion.div>

@@ -13,7 +13,7 @@ export function ScrubText({ text, className = '' }) {
     const ctx = gsap.context(() => {
       gsap.fromTo(
         '[data-word]',
-        { opacity: 0.16 },
+        { opacity: 0.4 },
         {
           opacity: 1,
           ease: 'none',
